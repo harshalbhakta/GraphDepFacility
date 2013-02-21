@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Package>
+  <Name>
+    graph
+  </Name>
+  <Title>
+    ApplicationCSE  Project   Dependency Graph Facility Spring   
+  </Title>
+  <Description>
+    Module Operations 
+  
+
+
+  Public Interface
+  
+
+
+  Build Process
+  
+  
+  Required files
+    
+ Vertexh Vertexcpp Graphh Graphcpp
+  
+  Build commands
+    
+ cl EHsc D
+
+  Maintenance History
+  
+  ver    Mar 
+   first release
+
+  </Description>
+  <Header>
+    C:\Harshal\OOD\DepGraphFacility\Graph.h
+  </Header>
+  <Source>
+    C:\Harshal\OOD\DepGraphFacility\Graph.cpp
+  </Source>
+  <DepPackage>
+    vertex
+  </DepPackage>
+</Package>

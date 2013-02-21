@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Package>
+  <Name>
+    vertex
+  </Name>
+  <Title>
+    Function to fetch the Vertex 
+  </Title>
+  <Description>
+    Module Operations 
+  
+
+  The Vertex class will be responsible for holding the information related to the vertex The data stored for
+  each vertex object will be used by the Graph Class to construct a collection of Vertex objects The data
+  stored for vertex class is designed to support the Graph Class Graph class will be holding the adjacency 
+  list of vertex Each vertex should hold the reference to its child vertex The Vertex will hold this 
+  reference as a index number of the child in the adjacency list
+
+  For Example  Consider graph adjacency list
+
+Index    Vertex Obj  Value ListReferenceIndexEdge 
+
+    vertex    Root  Edge Edge  
+    vertex     LeftChild  Edge
+    vertex     RighChild  Edge
+    vertex     SecondLevel               
+
+  Data Structure used in the Vertex class 
+
+  VertexType  Holds the value of the Vertex
+   edges  Holds the edges   ListReferenceIndexEdge 
+
+  Public Interface
+  
+
+  VertexVertexType Create Object with VertexType as Argument
+  void AddEdgeintEdgeType Function to add a new edge
+  VertexType GetVertex Function to get the value of the vertex
+  stdvectorstdpairintEdgeType GetEdges Function to get the list of edges
+
+  Build Process
+  
+  
+  Required files
+    
+ VertexhVertexcpp
+  
+  Build commands
+    
+ cl EHsc DTESTVERTEX Vertexcpp
+
+  Maintenance History
+  
+  ver    Mar 
+   first release
+
+  </Description>
+  <Header>
+    C:\Harshal\OOD\DepGraphFacility\Vertex.h
+  </Header>
+  <Source>
+    C:\Harshal\OOD\DepGraphFacility\Vertex.cpp
+  </Source>
+</Package>

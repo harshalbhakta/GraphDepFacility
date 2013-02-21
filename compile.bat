@@ -1,0 +1,1 @@
+devenv GraphDepFacility.sln /rebuild debug
